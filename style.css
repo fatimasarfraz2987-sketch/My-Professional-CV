@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: black; /* A nice blue color for the name */
+}
+header h2 {
+    margin: 5px 0 10px;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+.contact-info {
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+section {
+    margin-bottom: 25px;
+}
+section h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+.profile p {
+    font-style: italic;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skills-list span {
+    background: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.job, .education-item {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-left: 3px solid black;
+}
+.job h4, .education-item h4 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+.job p, .education-item p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.job ul li {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.additional-info ul li {
+    list-style-type: square;
+    margin-left: 20px;
+}
